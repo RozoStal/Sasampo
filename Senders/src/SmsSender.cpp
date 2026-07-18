@@ -1,5 +1,5 @@
 //Sasampo includes
-#include "SmsSender.h"
+#include "Senders/include/SmsSender.h"
 
 int SmsSender::getMaxMessLen() const { return m_messageMaxLen; }
 

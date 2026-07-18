@@ -12,7 +12,7 @@ class SmsSender : public INotificationSender{
         ~SmsSender() = default;
         bool send(const Notification& ntf) const override;
 
-        const int getMaxMessLen() const;
+        int getMaxMessLen() const;
         void setMaxMessLen(const int len);
     private:
         int m_messageMaxLen{160};

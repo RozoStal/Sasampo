@@ -1,7 +1,7 @@
 //Sasampo includes
 #include "SmsSender.h"
 
-const int SmsSender::getMaxMessLen() const { return m_messageMaxLen; }
+int SmsSender::getMaxMessLen() const { return m_messageMaxLen; }
 
 void SmsSender::setMaxMessLen(const int len) { m_messageMaxLen = len; }
 
@@ -10,6 +10,6 @@ bool SmsSender::send(const Notification& ntf) const{
         std::cout << "[SMS Error] The message is too long!" << std::endl;
         return false;
     }
-    std::cout << "[SMS] to number" << ntf.getRecipient() << " with text: " << ntf.getMessage() << std::endl;
+    std::cout << "[SMS] to number " << ntf.getRecipient() << " with text: " << ntf.getMessage() << std::endl;
     return true;
 }

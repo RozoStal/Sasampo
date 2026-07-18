@@ -1,0 +1,3 @@
+/home/user/Sasampo/build-release/CMakeFiles/Sasampo.dir
+/home/user/Sasampo/build-release/CMakeFiles/edit_cache.dir
+/home/user/Sasampo/build-release/CMakeFiles/rebuild_cache.dir

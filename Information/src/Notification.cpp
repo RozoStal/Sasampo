@@ -1,4 +1,4 @@
-#include "Notification.h"
+#include "Information/include/Notification.h"
 
 const std::string& Notification::getRecipient() const { return m_recipient; }
 const std::string& Notification::getMessage() const { return m_message; }
